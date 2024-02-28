@@ -150,3 +150,46 @@ a {
     color: white;
     text-decoration: none;
 }
+
+/* Burger-Menü Styles */
+.burger-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Stelle sicher, dass das Menü über anderen Inhalten liegt */
+}
+
+.burger-icon {
+    color: #fff; /* Weißes Icon */
+    cursor: pointer;
+}
+
+.popup-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #f2f2f2; /* Hellerer Grauton */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Schatten */
+}
+
+.popup-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.popup-menu ul li {
+    margin-bottom: 10px;
+}
+
+.popup-menu ul li a {
+    color: #333; /* Farbe der Links */
+    text-decoration: none;
+}
+
+.close-icon {
+    float: right;
+    cursor: pointer;
+}
